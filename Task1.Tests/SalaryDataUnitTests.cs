@@ -3,7 +3,7 @@
 public class SalaryDataUnitTests
 {
     [Theory]
-    [InlineData("1000", "500", new[] { "200 True", "300 True" }, 1000, 500)] // Нормальный случай
+    [InlineData("1000", "500", new[] { "54 True", "97 True" }, 1000, 500)] // Нормальный случай
     public void CreateFromStrings_ValidInput_ReturnsCorrectSalaryData(
         string? salaryStr,
         string? intensityWorkSumStr,
