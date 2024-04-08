@@ -1,4 +1,6 @@
-﻿namespace Task1.Tests;
+﻿using FluentAssertions;
+
+namespace Task1.Tests;
 
 public class SalaryDataUnitTests
 {
@@ -24,14 +26,10 @@ public class SalaryDataUnitTests
         var result = SalaryData.CreateFromStrings(salaryStr, intensityWorkSumStr, indicatorStrs);
 
         // Assert
+        
         Assert.Equal(expectedSalary, result.Salary);
         Assert.Equal(expectedIntensityWorkSum, result.IntensityWorkSum);
-        Assert.Equal(expectedIndicators.Count(), result.Indicators.Count);
-        Assert.All(expectedIndicators.Zip(result.Indicators), pair =>
-        {
-            Assert.Equal(pair.First.Value, pair.Second.Value);
-            Assert.Equal(pair.First.Achieved, pair.Second.Achieved);
-        });
+        result.Indicators.Should().BeEquivalentTo(expectedIndicators);
     }
 
     [Theory]
