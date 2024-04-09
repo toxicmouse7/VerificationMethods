@@ -1,6 +1,15 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b6e9fd8b_002D3457_002D41df_002D868e_002D680ca44132ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SalaryCalculatorUnitTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=258fb504_002D973f_002D4d78_002Da49f_002D9ac23f77580e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Task 5&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\Aleksej\RiderProjects\VerificationMethods" Presentation="&amp;lt;Task 5&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8151be2f_002D3441_002D4485_002Dabbd_002D5cf2c065fca4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BatteryCalculatorTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::995E6EFE-07D0-4FE6-A8A4-A691902B6FD3::net8.0::Task1.Tests.SalaryCalculatorUnitTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::72220F9A-B6E1-42F1-81AC-5C24290E086A::net8.0::Task3.Tests.BatteryCalculatorTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a3819c5c_002Dda2d_002D46d4_002D967f_002D39f36b1cb7a2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Task 4&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\Aleksej\RiderProjects\VerificationMethods" Presentation="&amp;lt;Task 4&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

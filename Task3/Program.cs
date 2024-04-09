@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Task3;
 
-Console.WriteLine("Hello, World!");
+var data = BatteryCalculationData.CreateFromStrings(Console.ReadLine(), Console.ReadLine(), Console.ReadLine());
+
+Console.WriteLine(BatteryCalculator.Calculate(data));
