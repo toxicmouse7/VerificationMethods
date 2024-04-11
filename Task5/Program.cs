@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Task5;
 
-Console.WriteLine("Hello, World!");
+var marksInfo = new List<string>();
+
+for (var markInfoString = Console.ReadLine(); markInfoString is not null; markInfoString = Console.ReadLine())
+{
+    marksInfo.Add(markInfoString);
+}
+
+var data = ScholarshipCalculationData.CreateFromStrings(marksInfo, Console.ReadLine());
+
+Console.WriteLine(ScholarshipCalculator.Calculate(data));
