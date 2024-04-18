@@ -15,7 +15,7 @@ public record PhonePaymentCalculationData(int K, int T, decimal A, decimal B, de
             throw new ArgumentNullException();
         }
 
-        if (!int.TryParse(Kstr, out var k) || k < 0)
+        if (!int.TryParse(Kstr, out var k) || k <= 0)
         {
             throw new ArgumentException("Invalid value for K");
         }
