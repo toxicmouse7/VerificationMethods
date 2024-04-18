@@ -35,7 +35,7 @@ public class ScholarshipCalculatorTests
     }
 
     [Theory]
-    [InlineData(new[] { "4,True", "4,True", "4,True", "4,True" }, "100", 100)] // All marks are 4 and in time
+    [InlineData(new[] { "4,True", "4,True", "4,True", "4,True" }, "100", 1)] // All marks are 4 and in time
     [InlineData(new[] { "5,True", "5,True", "5,True", "5,True" }, "100", 125)] // All marks are 5 and in time
     [InlineData(new[] { "4,True", "5,True", "4,True", "5,True" }, "100", 125)] // Mix of 4 and 5 marks, all in time
     public void Calculate_ReturnsCorrectValueWithDifferentMarks(string[] marksInfoStr, string AStr, decimal expected)
